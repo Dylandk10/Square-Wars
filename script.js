@@ -156,7 +156,7 @@ let Player = function(name, hitPoints, maxHit, defense, width, height, x, y, col
 let xxx = new Player("xxx", 50, 10, 10, 30, 30, 50, 50, "red", 1);
 let xyz = new Player("xyz", 50, 5, 5);
 
-//  FIRE AKA THE BULLET THE PLAY SHOOTS --------------   on fire/shoot bullet follows player?!?!?!?!?
+//  FIRE AKA THE BULLET THE PLAYER SHOOTS
 let Fire = function(width, height, x, y, color, shoot) {
     this.width = width;
     this.height = height;
@@ -205,7 +205,7 @@ let Fire = function(width, height, x, y, color, shoot) {
     
 };
 
-// TO MOVE FUNCTION 
+// TO MOVE FUNCTION AND GENERAL LOADING OF THE GAME
 function updateGameArea(){
     for(var i = 0; i < enemys.length; i+= 1) {
     if(fire.crashWith(enemys[i])){
