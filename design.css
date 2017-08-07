@@ -1,0 +1,8 @@
+canvas {
+    border: 1px solid black;
+}
+#eatBtn {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10, 10, 10, 10;
+}
